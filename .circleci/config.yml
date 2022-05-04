@@ -2,7 +2,6 @@ version: 2.1
 
 orbs: 
   heroku: circleci/heroku@1.2.6
-  cypress: cypress-io/cypress@1
 
 jobs:
   build:
@@ -15,7 +14,9 @@ jobs:
       - run:
           name: Install Dependencies
           command: npm install
-      - cypress/run
+      - run:
+          name: Run tests
+          command: npm run cypress
 
 workflows:
   heroku_deploy:
