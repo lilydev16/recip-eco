@@ -12,7 +12,7 @@ Recip-Eco: Revolutionizing food sustainability.
 
 Checkout the deployed beta version of the application using the link below.
 
-[Recip-Eco](https://fierce-badlands-09802.herokuapp.com/)
+[Recip-Eco](https://recip-eco.herokuapp.com/)
 
 # Learning Goals
 - React fundamentals
@@ -97,7 +97,7 @@ In the future, we would like to make the following additions to Recip-Eco:
 - React Dev Tools (Chrome Dev Tools)
 
 # Deployment
-Skip installation by using this deployment link to view the application: [Recip-Eco](https://fierce-badlands-09802.herokuapp.com/)
+Skip installation by using this deployment link to view the application: [Recip-Eco](https://recip-eco.herokuapp.com/)
 
 - No installlation is needed  with the provided deploy link.
 - The application was deployed using [Heroku](https://www.heroku.com/).
