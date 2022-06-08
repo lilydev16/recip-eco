@@ -111,3 +111,4 @@ Skip installation by using this deployment link to view the application: [Recip-
 # Credits
 - [Heroku](https://www.heroku.com/)
 - [Create React App](https://create-react-app.dev/)
+- [CircleCI](https://circleci.com/docs/)
