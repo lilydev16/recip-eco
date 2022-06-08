@@ -2,6 +2,10 @@ version: 2.1
 
 orbs: 
   cypress: cypress-io/cypress@2.0.0
+executors:
+  environment:
+      API_ID: $EDAMAN_API_ID
+      API_KEY: $EDAMAN_API_KEY
 workflows:
   build:
     jobs:
