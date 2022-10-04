@@ -115,4 +115,4 @@ Skip installation by using this deployment link to view the application: [Recip-
 # Credits
 
 - [Create React App](https://create-react-app.dev/)
-- [CircleCI](https://circleci.com/docs/)
+<!-- - [CircleCI](https://circleci.com/docs/) -->
