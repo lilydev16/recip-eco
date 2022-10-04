@@ -2,19 +2,20 @@
 
 ## Overview
 
-Food is abundant in our modern society.  However, every year millions of tons of food goes to waste because individuals can't think of ways to combine every odd ingredient in their refrigerators  into something worth eating before those ingredients expire.
+Food is abundant in our modern society. However, every year millions of tons of food goes to waste because individuals can't think of ways to combine every odd ingredient in their refrigerators into something worth eating before those ingredients expire.
 
 Recip-Eco is here to fix this problem of food waste.
 
-Recip-Eco allows the user to submit a list of every odd ingredient they have yet to find a use for, and in return they receive a list of recipes from the Edamam Recipe API that includes all of the recipes listed.  Additionally, the user has the power to filter those recipes by dietary restriction.  This means that not only will the list of recipes match the ingredient list--but it will also match the preferences of each individual user!
+Recip-Eco allows the user to submit a list of every odd ingredient they have yet to find a use for, and in return they receive a list of recipes from the Edamam Recipe API that includes all of the recipes listed. Additionally, the user has the power to filter those recipes by dietary restriction. This means that not only will the list of recipes match the ingredient list--but it will also match the preferences of each individual user!
 
 Recip-Eco: Revolutionizing food sustainability.
 
 Checkout the deployed beta version of the application using the link below.
 
-[Recip-Eco](https://recip-eco.herokuapp.com/)
+[Recip-Eco](https://recip-eco.vercel.app/)
 
 # Learning Goals
+
 - React fundamentals
 - TypeScript fundamentals
 - React Hooks
@@ -25,17 +26,18 @@ Checkout the deployed beta version of the application using the link below.
 - Responsive design
 
 # Getting Started
+
 To get a local copy up and running follow these simple steps.
 
 ## Installation
 
 1. In your terminal, clone the repo
    ```sh
-   git clone git@github.com:lswatson16/stretch-tech.git
+   git clone git@github.com:lilydev16/recip-eco.git
    ```
 2. `cd` into the root directory
-    ```sh
-   cd stretch-tech
+   ```sh
+   cd recip-eco
    ```
 3. Install NPM packages
    ```sh
@@ -44,20 +46,20 @@ To get a local copy up and running follow these simple steps.
 4. Start the server to see the application in the browser
    ```sh
    npm start
-   ``` 
+   ```
    - Runs the app in the development mode.
    - Open http://localhost:3000 to view it in the browser.
    - The page will reload if you make edits.
 
 # Challenges and Wins
 
-This project was definitely a stretch!  The thing that made it so challenging was the fact that we had to do the majority of the learning required to complete it on our own time, outside of class.  However with that in mind, the project is also an incredible win for us because it shows how far we've grown as developers.
+This project was definitely a stretch! The thing that made it so challenging was the fact that we had to do the majority of the learning required to complete it on our own time, outside of class. However with that in mind, the project is also an incredible win for us because it shows how far we've grown as developers.
 
 One particular milestone that comes to mind was when we finally figured out how to refactor the project in with React Router so that the url always matches up with the state that the application webpage is currently in.
 
 # Features
 
-When the user arrives at the landing page, they are greeted by a simple form asking for the ingredients they would like to use in their search.  After they've added the proper ingredients to the search list, they can press the Find Recipes button, and voila--a list of recipes including those ingredients will appear in a queue beneath the form!
+When the user arrives at the landing page, they are greeted by a simple form asking for the ingredients they would like to use in their search. After they've added the proper ingredients to the search list, they can press the Find Recipes button, and voila--a list of recipes including those ingredients will appear in a queue beneath the form!
 
 If the user has any specific dietary preferences or restrictions, a dropdown will appear with the search results allowing the user to further filter their results as desired.
 
@@ -83,8 +85,8 @@ In the future, we would like to make the following additions to Recip-Eco:
 - Additional dropdown options for refining recipe results by more criteria.
 - The ability to use the application in full screen mode with a dedicated desktop and/or mobile version of the application.
 
+# Technologies Used
 
-# Technologies Used 
 - TypeScript
 - React
 - React Router
@@ -97,18 +99,20 @@ In the future, we would like to make the following additions to Recip-Eco:
 - React Dev Tools (Chrome Dev Tools)
 
 # Deployment
-Skip installation by using this deployment link to view the application: [Recip-Eco](https://recip-eco.herokuapp.com/)
 
-- No installlation is needed  with the provided deploy link.
-- The application was deployed using [Heroku](https://www.heroku.com/).
+Skip installation by using this deployment link to view the application: [Recip-Eco](https://recip-eco.vercel.app/)
+
+- No installlation is needed with the provided deploy link.
+- The application was deployed using [Vercel](https://www.vercel.com/).
 
 # Contributors
+
 - [Rory Magee](https://github.com/roryemagee1)
 - [Dillon Parker](https://github.com/Prkr93)
 - [Kim Ward](https://github.com/kmewrd)
-- [Lauralyn Watson](https://github.com/lswatson16)
+- [Lauralyn Watson](https://github.com/lilydev16)
 
 # Credits
-- [Heroku](https://www.heroku.com/)
+
 - [Create React App](https://create-react-app.dev/)
 - [CircleCI](https://circleci.com/docs/)
